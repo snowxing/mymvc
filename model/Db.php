@@ -40,10 +40,10 @@ class Db
         // TODO: Implement __clone() method.
     }
 
-    public static function getInstance()
+    public static function getInstance($params=[])
     {
         if(!self::$instance instanceof self){
-            self::$instance = new self();
+            self::$instance = new self($params);
         }
 
         return self::$instance;
