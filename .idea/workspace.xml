@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdbaa61-c4d8-49e8-aa8f-9683833fae7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.php" afterPath="$PROJECT_DIR$/demo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Db.php" afterPath="$PROJECT_DIR$/model/Db.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +20,7 @@
       <file leaf-file-name="danli.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/danli.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="513">
               <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
@@ -28,24 +29,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="213">
+              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="355">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
-                <marker date="1515122559403" expanded="true" signature="165:204" ph="UPDATE STUDE... " />
+                <marker date="1515133481128" expanded="true" signature="360:399" ph="UPDATE stude... " />
+                <marker date="1515133481128" expanded="true" signature="412:433" ph="select * fro... student" />
+                <marker date="1515133481128" expanded="true" signature="426:433" ph="UPDATE stude... " />
               </folding>
             </state>
           </provider>
@@ -60,8 +73,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/danli.php" />
-        <option value="$PROJECT_DIR$/model/Db.php" />
+        <option value="$PROJECT_DIR$/model/Model.php" />
         <option value="$PROJECT_DIR$/demo.php" />
+        <option value="$PROJECT_DIR$/model/Db.php" />
       </list>
     </option>
   </component>
@@ -223,15 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1515036965357</updated>
       <workItem from="1515036967057" duration="8714000" />
-      <workItem from="1515121076926" duration="1316000" />
+      <workItem from="1515121076926" duration="6130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10030000" />
+    <option name="totallyTimeSpent" value="14844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2980333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -284,7 +298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/danli.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="513">
           <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
@@ -292,22 +306,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Db.php">
+    <entry file="file://$PROJECT_DIR$/model/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="380">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="355">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
-            <marker date="1515122559403" expanded="true" signature="165:204" ph="UPDATE STUDE... " />
+            <marker date="1515133481128" expanded="true" signature="360:399" ph="UPDATE stude... " />
+            <marker date="1515133481128" expanded="true" signature="412:433" ph="select * fro... student" />
+            <marker date="1515133481128" expanded="true" signature="426:433" ph="UPDATE stude... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

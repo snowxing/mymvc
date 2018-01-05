@@ -40,10 +40,10 @@ class Db
         // TODO: Implement __clone() method.
     }
 
-    public static function getInstance($params=[])
+    public static function getInstance($config=[])
     {
         if(!self::$instance instanceof self){
-            self::$instance = new self($params);
+            self::$instance = new self($config);
         }
 
         return self::$instance;
@@ -67,9 +67,8 @@ class Db
      * 添加修改操作
      * @param $sql
      */
-    public function exce($sql){
-        $num = $this->conn->exce($sql);
-
+    public function exec($sql){
+        $num = $this->conn->exec($sql);
         if($num > 0){
             if(null !==$this->conn->lastInsertId()){
                 $this->insertId = $this->conn->lastInsertId();
