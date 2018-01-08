@@ -21,19 +21,40 @@ class Model
     private function init()
     {
         $dbConfig = [
+            'db' => 'mysql',
+            'host' => 'PC-20170512FUIH',
+            'port' => '3307',
             'user' => 'zcx',
             'pass' => '123456',
+            'charset' => 'utf8',
             'dbname' => 'edu'
         ];
 
         $this->db = Db::getInstance($dbConfig);
     }
 
-    public function getAll($id)
+    /**
+     * 获得多条数据
+     * @return mixed
+     */
+    public function getAll()
+    {
+        $sql = "select * from student";
+
+        return $this->data = $this->db->fetchAll($sql);
+    }
+
+    /**
+     * 获得1条数据
+     * @param $id
+     *
+     * @return mixed
+     */
+    public function get($id)
     {
         $sql = "select * from student WHERE id={$id}";
 
-        return $this->data = $this->db->fetchAll($sql);
+        return $this->data = $this->db->fetch($sql);
     }
 
 }
