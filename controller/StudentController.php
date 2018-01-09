@@ -12,7 +12,7 @@ class StudentController
         $stu = new StudentModel();
 
         $data = $stu->getAll();
-        print_r($data);
+        require 'view/student_list.php';
     }
 
     public function listOne($id = 2)
