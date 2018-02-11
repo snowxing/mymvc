@@ -19,9 +19,10 @@ class StudentController
     {
         $id = isset($_GET['id']) ? $_GET['id'] : $id;
         $stu = new StudentModel();
-
         $data = $stu->get($id);
-        print_r($data);
+        $data = isset($data) ? array($data) : array();
+
+        require 'view/student_list.php';
     }
 
 }

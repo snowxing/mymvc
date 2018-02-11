@@ -14,7 +14,7 @@
     </tr>
 
 
-    <?php foreach($data as $stu): ?>
+    <?php foreach($data as $k =>$stu): ?>
     <tr align="center">
         <td><?php echo $stu['id']; ?></td>
         <td><?php echo $stu['name']; ?></td>
